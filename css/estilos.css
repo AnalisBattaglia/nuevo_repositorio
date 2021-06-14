@@ -1,0 +1,264 @@
+/* /////// RESETEOS DE HTML /////// */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(192, 192, 192);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 1px;
+    background-image: url(../imag/FondoIndex.jpg);
+}
+.gridContainer{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 100%;
+    grid-gap: 100px;
+    grid-template-areas:
+    "area1 area1"
+    "area2 area2";
+  }
+.grid__1{
+    grid-area: area1;
+    width: 50%; 
+    margin-left: 650px; 
+    margin-top: 50px;   
+    height: 50%;
+}
+.grid__2{
+    margin-top: 100px;
+    text-align: center;
+    grid-area: area2;
+    font-family:'Ubuntu', sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 10;
+    line-height: 20px;
+}
+/* /////// MENU/////// */
+    nav ul li a {
+       color: black;
+       font-family:'Ubuntu', sans-serif;
+       font-weight: bold; 
+       text-decoration: none;
+       background-color: white;
+       padding: 1px;
+       border: solid black;
+   }
+  
+/* /////// HEADER /////// */
+
+.header {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../imag/FondoIndex.jpg");
+    background-size: cover;
+}
+
+.header__Logo {
+    width: 10%;
+    margin-left: 10px;
+}
+.header__H1{
+    color: black;
+    font-size: 15px;
+    font-family:'Ubuntu', sans-serif;
+    width: 30%;
+}
+.header__Logo img {
+    width: 100%;
+}
+
+.header__Menu {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.header__Menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.header__Menu ul li:hover {
+    font-weight: 600; 
+    transform: scale(1,2); 
+    transition: all 1s;  
+}
+
+.imagen__Logo{
+    width: 50px;
+    margin-left: 10px;
+}   
+
+.imagenSilos{
+    margin-bottom: 30px;
+    padding-top: 100px;   
+    margin-left: 250px;
+    height: 200px;
+}
+
+/* /////// FOOTER /////// */
+
+.footer{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    width: 100%;
+    margin-right: 30%;
+    margin-top: 50%;
+    background-image: linear-gradient(grey, black);
+}
+
+.footerSocial {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSocialLinks {
+    width: 20%;
+    display: flex;
+    justify-content:space-around;   
+    align-items:flex-start;
+}
+
+.footerSocialLinks img {
+    height: 30px;
+}
+
+.footerContacto{
+    font-size: 5 px;
+    color: white;
+    font-family:'Ubuntu', sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 1;
+    line-height: 20px;
+    text-align:left;
+    height: 100%;
+
+}
+
+/* /////// SECCIONES /////// */
+.imagenFondoEmpresa{
+    background-image: url(../imag/TCN.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+}
+#imagenEmpleados{
+    margin-left: 250px;
+    border: 5px solid;
+}
+.imagenTCN{
+    background-image: url(../imag/TCN.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+}
+.imagenFondoContacto{
+    background-image: url(../imag/TCN.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+    height: 100%;
+}
+.imagenProyectos{
+   background-image: url(../imag/TCN.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+h4{
+    color:black;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+
+}
+#parrafoUnico{
+      font-size: 15 px;
+      font-family:'Ubuntu', sans-serif; 
+      letter-spacing: 1px;
+      word-spacing: 10;
+      line-height: 20px;
+      text-align: center;
+}
+
+.seccionImportante{
+     color:rgb(37, 39, 29);
+     font-size: 20px;
+     font-family:'Ubuntu', sans-serif; 
+     letter-spacing: 1px;
+     word-spacing: 10;
+     line-height: 20px;
+     text-align: left;
+     margin: 30px;
+}
+
+.imagenSilos{
+    margin-left: 900px;
+    
+}
+table{
+    border-style: solid;
+    border-top-color: black;
+    border-left-color:black;
+    border-right-color: black;
+    border-bottom-color:black;
+    background-color: white;
+    text-align: justify;
+}
+th{
+    border-style: solid;
+    border-color: black;
+}
+td{
+    border-style:solid;
+    border-color:rgb(180, 167, 167);
+}
+.input1:focus{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(199, 191, 191);
+} 
+
+/* GRID FORMULARIO DE CONTACTO */
+.formularioContacto{
+      color: black;
+      font-size: 15 px;
+      font-family:'Ubuntu', sans-serif;
+      word-spacing: 10;
+      line-height: 20px;
+      text-align: left;
+      display: grid;
+      grid-template-rows: 50px 500px; 
+    } 
+
+h3{
+    margin-left: 30px;
+}
+
+
