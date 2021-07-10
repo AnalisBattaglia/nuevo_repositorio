@@ -1,0 +1,185 @@
+/* /////// RESETEOS DE HTML /////// */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(192, 192, 192);
+    background-size: cover;
+    }
+
+     
+/* /////// HEADER /////// */
+
+.header {
+    width: 100%;
+    height: 190px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../imag/FondoIndex.jpg");
+    background-size: cover;
+}
+
+.header__Logo {
+    width: 10%;
+    margin-left: 10px;
+}
+.header__H1{
+    color: black;
+    font-size: 15px;
+    font-family:'Ubuntu', sans-serif;
+    width: 30%;
+}
+.header__Logo img {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.header__Menu ul {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.header__Menu ul li:hover {
+    font-weight: 600; 
+    transform: scale(1,2); 
+    transition: all 1s;  
+}
+
+.imagen__Logo{
+    width: 50px;
+    margin-left: 10px;
+}   
+
+.imagenSilos{
+    margin-bottom: 30px;
+    padding-top: 100px;   
+    margin-left: 250px;
+    height: 200px;
+}
+
+/* /////// FOOTER /////// */
+#footer{
+  height: 157px;
+  padding-right: 20px;
+}
+
+/* /////// SECCIONES /////// */
+.imagenFondoEmpresa{
+    background-image: url;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+}
+#imagenEmpleados{
+    margin-left: 250px;
+    border: 5px solid;
+    margin-bottom: 400px;
+
+}
+.imagenTCN{
+    background-image: url;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+}
+
+.imagenProyectos{
+   background-image: url;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+
+#parrafoUnico{
+      font-size: 15 px;
+      font-family:'Ubuntu', sans-serif; 
+      letter-spacing: 1px;
+      word-spacing: 10;
+      line-height: 20px;
+      text-align: center;
+}
+
+.imagenSilos{
+    margin-left: 900px;
+    
+}
+   
+th{
+    border-style: solid;
+    border-color: black;
+}
+td{
+    border-style:solid;
+    border-color:rgb(180, 167, 167);
+}
+.input1:focus{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(199, 191, 191);
+} 
+
+/*FORMULARIO DE CONTACTO */
+.formularioContacto{
+      color: black;
+      font-size: 15 px;
+      font-family:'Ubuntu', sans-serif;
+      word-spacing: 10;
+      line-height: 20px;
+      text-align: left;
+      display: grid;
+      grid-template-rows: 50px 500px; 
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+    } 
+#formulario{
+    padding-top: 50px;
+}
+
+/* GRID CARD*/
+#gridCard{
+    height: 1000px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-top: 20px;  
+    
+}
+#imagenGridcard{
+    height: 500px;
+    width: 200px;
+}
+#email{
+    padding-top: 20px;
+}
+.ofertas{
+    padding-top: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 400px;
+}
+.container-fluid{
+    width: 100%;
+    height: 50%;
+}
+.carousel{
+    margin-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#equipo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 400px;
+}
